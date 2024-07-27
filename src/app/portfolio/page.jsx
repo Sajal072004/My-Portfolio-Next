@@ -116,6 +116,7 @@ function PortfolioPage() {
                 </div>
               )
             })}
+            <div className={`h-screen w-[50vw] flex items-center justify-center bg-gradient-to-r from-violet-300 to-blue-300`}></div>
 
           </motion.div>
 
