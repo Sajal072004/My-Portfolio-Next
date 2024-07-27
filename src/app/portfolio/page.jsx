@@ -96,7 +96,7 @@ function PortfolioPage() {
         <div className='sticky top-0 flex h-screen gap-4 items-center overflow-hidden'>
 
           <motion.div style={{ x }} className='flex'>
-            <div className={`h-screen w-[150vw] sm:w-[200vw] flex items-center justify-center bg-gradient-to-r from-violet-300 to-blue-300`}></div>
+            <div className={`h-screen w-[200vw] flex items-center justify-center bg-gradient-to-r from-violet-300 to-blue-300`}></div>
 
             {items.map((item, index) => {
               return (
@@ -116,7 +116,7 @@ function PortfolioPage() {
                 </div>
               )
             })}
-            <div className={`h-screen w-[50vw] flex items-center justify-center bg-gradient-to-r from-violet-300 to-blue-300`}></div>
+            <div className={`h-screen w-[100vw] flex items-center justify-center bg-gradient-to-r from-violet-300 to-blue-300`}></div>
 
           </motion.div>
 
