@@ -11,16 +11,10 @@ function PortfolioPage() {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-85.5%"])
 
   const items = [
+    
     {
       color: "from-blue-300 to-violet-300",
-      title: "SyncStream",
-      desc: "FinanceMate is a financial management tool developed with the MERN stack. It helps users track budgets, expenses, and overall financial health through an intuitive dashboard featuring interactive charts and tables. Users can manage budgets, categorize expenses, and view detailed spending reports. With secure authentication and a user-friendly interface, FinanceMate simplifies financial planning and promotes better money management",
-      img: "/FinanceMate.png",
-      link: "https://financemate.vercel.app"
-    },
-    {
-      color: "from-blue-300 to-violet-300",
-      title: "InterviewIQ",
+      title: "FinanceMate",
       desc: "FinanceMate is a financial management tool developed with the MERN stack. It helps users track budgets, expenses, and overall financial health through an intuitive dashboard featuring interactive charts and tables. Users can manage budgets, categorize expenses, and view detailed spending reports. With secure authentication and a user-friendly interface, FinanceMate simplifies financial planning and promotes better money management",
       img: "/FinanceMate.png",
       link: "https://financemate.vercel.app"
