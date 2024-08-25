@@ -81,7 +81,7 @@ function Navbar() {
         <Link href="https://github.com/Sajal072004" target='_blank'>
           <Image src="/github.png" alt='' width={24} height={24} />
         </Link>
-        <Link href="https://www.instagram.com/reels/C4vAyzQvGHK/" target='_blank'>
+        <Link href="https://www.instagram.com/sajal_namdeo07/" target='_blank'>
           <Image src="/instagram.png" alt='' width={24} height={24} />
         </Link>
         <Link href="https://www.linkedin.com/in/sajaln/" target='_blank'>
