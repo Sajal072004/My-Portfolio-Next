@@ -11,7 +11,13 @@ function PortfolioPage() {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-85.5%"])
 
   const items = [
-
+    {
+      color: "from-blue-300 to-violet-300",
+      title: "TaskBridge",
+      desc: "SyncStream is a versatile video conferencing platform designed to streamline virtual communication. It offers features like instant meeting creation, scheduling meetings for future dates, and inviting participants via shareable links. Users can also join meetings shared by others. Additionally, SyncStream allows you to record calls and access the recordings later, ensuring that important discussions are easily revisitable. Whether for business, education, or personal use, SyncStream provides a seamless and convenient video conferencing experience.",
+      img: "/syncstream.png",
+      link: "https://task-bridge.vercel.app"
+    },
     {
       color: "from-blue-300 to-violet-300",
       title: "SyncStream",
